@@ -1,0 +1,83 @@
+[
+    {
+        "currency": "aud",
+        "sku": "price_1IVBikEfO32OV4EwDqBu77oX",
+        "name": "Kalani",
+        "description": "White ceramic vase with a feature king protea, fan palm, seaholly, scabosia pods, natural bunny tails, lunaria honesty and a cream african sunflower.",
+        "image": "/products/kalani/1.webp",
+        "attribution": "Kalani",
+        "price": 23000
+    },
+    {
+        "currency": "aud",
+        "sku": "price_1IWVpoEfO32OV4EwXtC98S3k",
+        "name": "Sammy",
+        "description": "Blush nude ceramic vase with a feature victoriae banksia, cream and pink dried teasle, amaranthus, spear palm, ming fern, tail reed and mountain daisies.",
+        "image": "/products/sammy/1.webp",
+        "attribution": "Sammy",
+        "price": 18000
+    },
+    {
+        "currency": "aud",
+        "sku": "price_1IWVqxEfO32OV4EwfvOlS1w6",
+        "name": "Olivia",
+        "description": "Natural pampas grass with a cyad leaf, lotus pod, ming fern and preserved ruscus. (No vase)",
+        "image": "/products/olivia/1.webp",
+        "attribution": "Olivia",
+        "price": 15000
+    },
+    {
+        "currency": "aud",
+        "sku": "price_1IWVs8EfO32OV4Ew5pTmMnxN",
+        "name": "Tayla",
+        "description": "Dark blue ming fern with two large hydrangeas, african sunflowers, preserved immortelle, and preserved ruscus.",
+        "image": "/products/tayla/1.webp",
+        "attribution": "Tayla",
+        "price": 25000
+    },
+    {
+        "currency": "aud",
+        "sku": "price_1IWVszEfO32OV4EwGP9oEV1s",
+        "name": "Eden",
+        "description": "Hand crafted ceramic jug with a brown hydrangea, maize leaves, black strillingia, indiangrass, african sunflower and dried teasle.",
+        "image": "/products/eden/1.webp",
+        "attribution": "Eden",
+        "price": 17000
+    },
+    {
+        "currency": "aud",
+        "sku": "price_1IWVunEfO32OV4Ew3S8sfsSg",
+        "name": "Ella",
+        "description": "White ceramic vase with preserved tail reeds, lunaria honesty, natural bunny tails, seaholly and japanese amaranthus.",
+        "image": "/products/ella/1.webp",
+        "attribution": "Ella",
+        "price": 9000
+    },
+    {
+        "currency": "aud",
+        "sku": "price_1IWVtwEfO32OV4EwQxNCp8JJ",
+        "name": "Irichell",
+        "description": "Brown hydrangea with black strillingia, indiangrass, maize leaves and coral palms.(No vase)",
+        "image": "/products/irichell/1.webp",
+        "attribution": "Irichell",
+        "price": 12000
+    },
+    {
+        "currency": "aud",
+        "sku": "price_1IWVwGEfO32OV4EwvYUGehdb",
+        "name": "Jordyn",
+        "description": "Mini spear palm, japanese delphinium and white bunny tails. (No vase)",
+        "image": "/products/jordyn/1.webp",
+        "attribution": "Jordyn",
+        "price": 4000
+    },
+    {
+        "currency": "aud",
+        "sku": "price_1IWVwwEfO32OV4EwJNOhBjtT",
+        "name": "Honey Bee",
+        "description": "Ming fern, pink rice flower, wheat grass, myrtle leaves, pink bunny tails and a king protea. (No vase)",
+        "image": "products/honeybee/1.webp",
+        "attribution": "Honey Bee",
+        "price": 11000
+    }
+  ]
