@@ -6,7 +6,7 @@ import Nav from '../components/Nav'
 import CartSummary from '../components/CartSummary'
 import ProductGrid from '../components/ProductGrid'
 
-const stripePromise = loadStripe(process.env.NEXT_APP_STRIPE_PUBLISHABLE_KEY);
+const stripePromise = loadStripe(`${process.env.NEXT_APP_STRIPE_PUBLISHABLE_KEY}`);
 
 export default function Product() {
     return (

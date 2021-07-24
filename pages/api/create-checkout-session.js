@@ -2,8 +2,8 @@ const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY, {
     maxNetworkRetries: 2
 });
 
-const ValidateCartItems = require('use-shopping-cart/src/serverUtil')
-    .ValidateCartItems
+const validateCartItems = require('use-shopping-cart/utilities')
+    .validateCartItems
 
 const inventory = require('../../data/products.json');
 
@@ -11,7 +11,7 @@ exports.handler = async (event) => {
     try {
         const cartItems = JSON.parse(event.body);
 
-        const line_items = ValidateCartItems(inventory, cartItems);
+        const line_items = validateCartItems(inventory, cartItems);
 
         const session = await stripe.checkout.sessions.create({
             mode: 'payment',

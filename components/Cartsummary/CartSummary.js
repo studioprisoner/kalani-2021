@@ -18,7 +18,7 @@ const CartSummary = () => {
     setLoading(true);
 
     const { sessionId } = await fetch(
-      'api/crate-checkout-session',
+      'api/create-checkout-session',
       {
         method: 'post',
         headers: {
@@ -27,18 +27,19 @@ const CartSummary = () => {
         body: JSON.stringify(cartDetails),
       }
     )
-    .then((res) => {
-      return res.json();
-    })
-    .catch((error) => {
-      console.log(error);
-      setLoading(false);
-    });
+      .then((res) => {
+        return res.json();
+      })
+      .catch((error) => {
+        console.log(error);
+        setLoading(false);
+      });
+
     redirectToCheckout({ sessionId });
   };
 
     return (
-        <div className="px-4 pt-5 sm:px-6">
+        <div className="max-w-7xl mx-auto px-4 pt-5 sm:px-6">
     <div className="-ml-4 -mt-4 flex justify-between items-center flex-wrap sm:flex-nowrap">
       <div className="ml-4 mt-4">
           <h3 className="text-lg leading-6 font-medium text-almond-900">Your Cart</h3>
