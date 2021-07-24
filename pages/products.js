@@ -1,8 +1,12 @@
 import Head from 'next/head'
+import { CartProvider } from 'use-shopping-cart';
+import { loadStripe } from '@stripe/stripe-js';
+
 import Nav from '../components/Nav'
-import Cart from '../components/Cart'
 import CartSummary from '../components/CartSummary'
 import ProductGrid from '../components/ProductGrid'
+
+const stripePromise = loadStripe(process.env.NEXT_APP_STRIPE_PUBLISHABLE_KEY);
 
 export default function Product() {
     return (
@@ -12,10 +16,10 @@ export default function Product() {
             </Head>
             <div className="relative overflow-hidden">
                 <Nav />
-                <Cart>
+                <CartProvider mode="checkout-session" stripe={stripePromise}>
                     <CartSummary />
                     <ProductGrid />
-                </Cart>
+                </CartProvider>
             </div>
         </div>
     )
